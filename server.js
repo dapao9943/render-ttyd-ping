@@ -10,4 +10,4 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(3001); // 改成 3001
+server.listen(3000);
