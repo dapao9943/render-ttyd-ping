@@ -7,6 +7,6 @@ COPY start.sh /start.sh
 
 RUN chmod +x /start.sh
 
-EXPOSE 7681 3000
+EXPOSE 3000 3001
 
 CMD ["/start.sh"]
